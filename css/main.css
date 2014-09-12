@@ -598,7 +598,7 @@ footer .f_cols ul li a:hover{
 
 /*  Subscription pop-up  */
 #lightbox{
-	background: rgba(80, 250, 228, .8);
+	background: rgba(204, 204, 204, .8);
 	position: fixed;
 	top: 0;
 	left: 0;
