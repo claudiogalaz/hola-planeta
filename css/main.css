@@ -598,7 +598,7 @@ footer .f_cols ul li a:hover{
 
 /*  Subscription pop-up  */
 #lightbox{
-	background: rgba(0, 0, 0, .8);
+	background: rgba(80, 250, 228, .8);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -607,9 +607,10 @@ footer .f_cols ul li a:hover{
 	z-index: 9900;
 }
 
-#box{
+#box, 
+#box_form_contacto{
 	width: 400px;
-	height: 350px;
+	height: 500px;
 	background: #fff;
 	position: fixed;
 	display: none;
@@ -617,11 +618,13 @@ footer .f_cols ul li a:hover{
 	z-index: 9999;
 }
 
-#box form{
-	padding: 75px 0;
+#box form, 
+#box_form_contacto form{
+	padding: 70px 0;
 }
 
-#box .close{
+#box .close, 
+#box_form_contacto .close{
 	width: 40px;
 	height: 40px;
 	display: block;
@@ -632,7 +635,9 @@ footer .f_cols ul li a:hover{
 }
 
 #box #email,
-#box #name{
+#box #name,
+#box_form_contacto #email, 
+#box_form_contacto #nombre{
 	display: block;
 	width: 215px;
 	height: 50px;
@@ -644,7 +649,29 @@ footer .f_cols ul li a:hover{
 	color: #424242;
 }
 
-#box #submit{
+#box_form_contacto #textarea{
+	display: block;
+	width: 215px;
+	height: 150px;
+	background: #ffffff;
+	border: 1px #edebeb solid;
+	margin: 0 auto 10px auto;
+	padding: 0 20px;
+	outline: none;
+	color: #424242; 
+}
+
+#box_form_contacto p{
+	font-family: 'open_regular', arial;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 1px;
+	color: #000000;
+	margin-bottom: 20px; 
+}
+
+#box #submit, 
+#box_form_contacto #submit{
 	font-family: 'open_bold', arial;
 	font-weight: bold;
 	font-size: 16px;
@@ -658,7 +685,8 @@ footer .f_cols ul li a:hover{
 	outline: none;
 }
 
-#box #submit:hover{
+#box #submit:hover,
+#box_form_contacto #submit:hover{
 	cursor: pointer;
 	color: #fff;
 	background: #424242;
