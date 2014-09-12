@@ -463,6 +463,56 @@ header nav ul li a:hover{
 }
 
 
+/*news*/
+.news{
+	width: 100%;
+	padding: 95px 0 113px 0;
+	background: #f5f5f5;
+	border-top: 1px #e7e7e7 solid;
+	border-bottom: 1px #e7e7e7 solid;
+	text-align: center;
+	margin: 100px 0;
+}
+
+.news .title{
+	font-family: 'open_semibold', arial;
+	font-weight: bold;
+	font-size: 30px;
+	color: #4d4d4d;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	letter-spacing: 2px;
+}
+
+.news .desc{
+	font-family: 'open_regular', arial;
+	font-size: 14px;
+	color: #717171;
+	margin-bottom: 60px;
+}
+
+.news a.btn{
+	padding: 10px 40px;
+	margin: 10px 0;
+	color: #4d4d4d;
+	border: 2px #4d4d4d solid;
+	text-decoration: none;
+	font-family: 'open_bold', arial;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 16px;
+
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-o-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.news a.btn:hover{
+	background: #4d4d4d;
+	color: #f5f5f5;
+}
+
 
 /*  Social Media Icons  */
 .social{
