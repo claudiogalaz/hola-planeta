@@ -174,7 +174,7 @@ header nav ul li a:hover{
 .billboard{
 	width: 100%;
 	height: 650px;
-	background: url('../img/billboard_img.png') no-repeat 50%;
+	background: url('../img/billboard_img.jpg') no-repeat 50%;
 	text-align: center;
 	position: relative;
 	overflow: hidden;
