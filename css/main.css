@@ -286,6 +286,7 @@ header nav ul li a:hover{
 	display: block;
 	text-align: center;
 	overflow: hidden;
+	margin-bottom: 100px;
 }
 
 .singular ul li .s_icons,
