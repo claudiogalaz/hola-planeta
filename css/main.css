@@ -120,7 +120,7 @@ footer .f_cols a,
 footer .f_cols ul li a,
 .recent_work a.work_title,
 header nav ul li a,
-#box #submit{
+#box_form_contacto #submit{
 	transition:all .2s linear;
 	-webkit-transition:all .2s linear;
 	-moz-transition:all .2s linear;
@@ -666,8 +666,7 @@ footer .f_cols ul li a:hover{
 	overflow: hidden!important;
 	z-index: 9900;
 }
-
-#box, 
+ 
 #box_form_contacto{
 	width: 400px;
 	height: 500px;
@@ -678,12 +677,10 @@ footer .f_cols ul li a:hover{
 	z-index: 9999;
 }
 
-#box form, 
 #box_form_contacto form{
 	padding: 70px 0;
 }
-
-#box .close, 
+ 
 #box_form_contacto .close{
 	width: 40px;
 	height: 40px;
@@ -694,13 +691,12 @@ footer .f_cols ul li a:hover{
 	position: absolute;
 }
 
-#box #email,
-#box #name,
 #box_form_contacto #email, 
 #box_form_contacto #nombre{
 	display: block;
+	font-family: 'open_regular', arial;
 	width: 215px;
-	height: 50px;
+	height: 40px;
 	background: #ffffff;
 	border: 1px #edebeb solid;
 	margin: 0 auto 10px auto;
@@ -709,14 +705,17 @@ footer .f_cols ul li a:hover{
 	color: #424242;
 }
 
-#box_form_contacto #textarea{
+#box_form_contacto textarea{
 	display: block;
 	width: 215px;
-	height: 150px;
+	height: 120px;
+	resize: none;
+	font-family: 'open_regular', arial;
 	background: #ffffff;
 	border: 1px #edebeb solid;
 	margin: 0 auto 10px auto;
 	padding: 0 20px;
+	padding-top: 5px;
 	outline: none;
 	color: #424242; 
 }
@@ -730,7 +729,6 @@ footer .f_cols ul li a:hover{
 	margin-bottom: 20px; 
 }
 
-#box #submit, 
 #box_form_contacto #submit{
 	font-family: 'open_bold', arial;
 	font-weight: bold;
@@ -745,7 +743,6 @@ footer .f_cols ul li a:hover{
 	outline: none;
 }
 
-#box #submit:hover,
 #box_form_contacto #submit:hover{
 	cursor: pointer;
 	color: #fff;
