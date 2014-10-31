@@ -131,14 +131,15 @@ header nav ul li a,
 
 /*  Header  */
 header{
+	position: fixed !important;
 	width: 100%;
-	height: 130px;
+	height: 90px;
 	background-color: #ffffff;
 	z-index: 9999;
 }
 
 header .logo{
-	margin-top: 51px;
+	margin-top: 18px;
 	display: inline-block;
 }
 
@@ -153,7 +154,7 @@ header nav ul{
 
 header nav ul li{
 	float: left;
-	margin: 57px 0 0 60px
+	margin: 37px 0 0 60px
 }
 
 header nav ul li a{
@@ -168,7 +169,10 @@ header nav ul li a:hover{
 	border-bottom: 1px #4d4d4d solid;
 }
 
-
+#lleguebien
+{
+	padding-top: 90px;
+}
 
 /*  Billoard  */
 .billboard{
@@ -344,12 +348,24 @@ header nav ul li a:hover{
 	margin-bottom: -3px;
 }
 
+ul.slider
+{
+	list-style:none;
+	text-align:center;
+}
 
+ul.slider li
+{
+	list-style:none;
+	margin: 0px 20px;
+	display: inline-block;
+}
 
 /*  Recent work  */
 .recent_work{
 	margin-bottom: 100px;
 	overflow: hidden;
+	text-align:center;
 }
 
 .recent_work h3.S_title{
