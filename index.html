@@ -226,14 +226,19 @@ Nuestro primer proyecto, Llegué bien, fue concebido con la idea de traer tranqu
 	<div id="box_form_contacto">
 		<a href="" class="close"></a>
 
-		<form method="post" action="envio_correo.php">	
+		<form method="post" action="envio_correo.php" >	
 			<p>Contacta a nuestro equipo</p>
 			<input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
 			<input type="email" id="email" name="email" placeholder="Correo"/>
 			<!--<input type="text" id="textarea" placeholder="Ingresa tu comentario"></input>-->
 			<textarea placeholder="Ingresa tu comentario" name="mensaje"></textarea>
-			<input type="submit" id="submit" value="Enviar"/>
+			<input type="submit" id="submit" onclick= "aviso()" value="Enviar"/>
 		</form>
 	</div>
-
+<script>
+function aviso() {
+    
+    alert("El formulario ha sido enviado exitosamente.");
+}
+</script>
 </body>
